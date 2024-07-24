@@ -48,17 +48,6 @@ button:hover {
     background: #7c7d89;
 }
 
-/* this is dummy */
-.button:hover: ::before {
-    background: black;
-    border-color: white;
-    margin-left: 50px;
-    padding: 100px;
-}
-
-
-
-
 #temp-div p {
     font-size: 60px;
     margin-top: -30px;
