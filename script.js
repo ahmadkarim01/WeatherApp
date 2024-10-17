@@ -51,13 +51,13 @@ function displayWeather(data) {
             <p>${description}</p>
         `;
 
-    //     tempDiv.innerHTML = temperatureHTML;
-    //     weatherInfoDiv.innerHTML = weatherHTML;
-    //     weatherIcon.src = iconUrl;
-    //     weatherIcon.alt = description;
+        tempDiv.innerHTML = temperatureHTML;
+        weatherInfoDiv.innerHTML = weatherHTML;
+        weatherIcon.src = iconUrl;
+        weatherIcon.alt = description;
 
-    //     showImage();
-    // }
+        showImage();
+    }
 }
 
 function displayHourlyForecast(hourlyData) {
