@@ -60,10 +60,10 @@ function displayWeather(data) {
     }
 }
 
-function displayHourlyForecast(hourlyData) {
-    const hourlyForecastDiv = document.getElementById('hourly-forecast');
-    hourlyForecastDiv.innerHTML = ''; // Clear previous content
-    const next24Hours = hourlyData.slice(0, 8);
+// function displayHourlyForecast(hourlyData) {
+//     const hourlyForecastDiv = document.getElementById('hourly-forecast');
+//     hourlyForecastDiv.innerHTML = ''; // Clear previous content
+//     const next24Hours = hourlyData.slice(0, 8);
 
     next24Hours.forEach(item => {
         const dateTime = new Date(item.dt * 1000);
